@@ -56,7 +56,7 @@ def game_loop():
 
         while game_close:
             screen.fill(BLACK)
-            game_over_message = font.render("Вы проебали", True, RED)
+            game_over_message = font.render("Вы проиграли", True, RED)
             exit_message = font.render("Нажмите Q для выхода", True, RED)
             restart_message = font.render("Нажмите С для рестарта", True, RED)
             screen.blit(game_over_message,[screen_width / 9, screen_height / 6])
